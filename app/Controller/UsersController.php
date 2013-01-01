@@ -18,8 +18,17 @@ class UsersController extends AppController {
 			return true;
 		}elseif ($this->action=='profile') {
 			return true;
+		}elseif ($this->action=='edit') {
+			if($this->Session->read('Auth.User.id')==$this->params->pass[0]){
+				return true;
+			}else{
+				$this->_logData();
+				return false;			
+			}
+			return true;
 		}else{
 			$this->_logData();
+			$this->Session->setFlash($this->Auth->authError);
 			return false;
 		}
 	}
