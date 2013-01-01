@@ -1,0 +1,15 @@
+2012-12-06 23:15:20 Access: 15 logged in
+2012-12-06 23:16:08 Access: 15 logged out
+2012-12-06 23:29:05 Access: 15 logged in
+2012-12-06 23:42:09 Access: 15 logged out
+2012-12-06 23:42:30 Access: 20 logged in
+2012-12-06 23:44:44 Access: 20 unauthorised attempt to access environments -> view -> 3
+2012-12-08 10:34:37 Access: 19 logged in
+2012-12-08 10:40:11 Access: 19 logged out
+2012-12-08 10:40:16 Access: 17 logged in
+2012-12-08 10:52:11 Access: 17 logged out
+2012-12-08 10:52:26 Access: 18 logged in
+2012-12-08 11:00:10 Access: 18 unauthorised attempt to access environments -> index
+2012-12-08 11:02:17 Access: 18 unauthorised attempt to access environments -> edit -> 2
+2012-12-08 11:03:08 Access: 17 logged in
+2012-12-08 11:15:29 Access: 18 logged in
